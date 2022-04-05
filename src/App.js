@@ -1,11 +1,13 @@
 import './App.css';
+import NavBar from "./components /navbar/NavBar";
+
+
 
 const App=()=>{
   return(
       <div className="App">
-      <p>
-        aman
-      </p>
+      <NavBar/>
+
       </div>
 
   )
