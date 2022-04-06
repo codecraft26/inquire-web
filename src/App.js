@@ -3,12 +3,13 @@ import NavBar from "./components /navbar/NavBar";
 
 
 
+
 const App=()=>{
   return(
-      <div className="App">
-      <NavBar/>
+    <div>
+        lorem ipsum     rmfnrpknrg fnrfjn
+    </div>
 
-      </div>
 
   )
 }
