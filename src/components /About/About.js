@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from "../navbar/NavBar";
 
-
+//this is about fragment
 const About=()=>{
     return(
         <div>
