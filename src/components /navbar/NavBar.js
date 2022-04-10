@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {NavLink} from "react-bootstrap";
 import "./navbar.css";
+import {Link} from "react-router-dom";
 
 function NavBar(){
     const [click, setClick] = useState(false);
@@ -18,48 +19,51 @@ function NavBar(){
 
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <NavLink
+                            <Link
                                 exact
                                 to="/"
                                 activeClassName="active"
                                 className="nav-links"
-                                onClick={handleClick}
+
                             >
                                 Home
-                            </NavLink>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink
+                            <Link
                                 exact
                                 to="/about"
                                 activeClassName="active"
                                 className="nav-links"
-                                onClick={handleClick}
                             >
                                 About
-                            </NavLink>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink
+                            <Link
                                 exact
-                                to="/blog"
+                                to="/"
                                 activeClassName="active"
                                 className="nav-links"
-                                onClick={handleClick}
+
                             >
                                 Blog
-                            </NavLink>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink
+
+
+
+                            <Link
                                 exact
-                                to="/contact"
+                                to="/profile"
                                 activeClassName="active"
                                 className="nav-links"
-                                onClick={handleClick}
+
                             >
                                 profile
-                            </NavLink>
+                            </Link>
+
                         </li>
                     </ul>
                     <div className="nav-icon" onClick={handleClick}>
