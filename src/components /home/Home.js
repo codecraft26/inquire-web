@@ -2,6 +2,8 @@ import React from 'react';
 import NavBar from "../navbar/NavBar";
 
 const Home = () => {
+
+    //home fragment
   return (
     <div>
     <NavBar/>
