@@ -1,13 +1,29 @@
 import React from 'react';
+import Footer from '../footer/Footer';
 import NavBar from "../navbar/NavBar";
-
+import "./home.css";
+import SideNav from './sidenav/SideNav';
+import Feeds from './feeds/Feeds';
 const Home = () => {
 
-    //home fragment
+ 
   return (
     <div>
     <NavBar/>
-        <h1>home page </h1>
+       <div className="container">
+         <div className="item">
+
+          <SideNav/>
+
+         </div>
+         <div className="item">
+
+           <Feeds/>
+         </div>
+         <div className="item">dabba3</div>
+        
+       </div>
+      
     </div>
   );
 };
