@@ -42,7 +42,7 @@ function NavBar(){
                         <li className="nav-item">
                             <Link
                                 exact
-                                to="/"
+                                to="/#"
                                 activeClassName="active"
                                 className="nav-links"
 
